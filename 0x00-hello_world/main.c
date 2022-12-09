@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	printf("Compling\n");
+	printf("Compiling\n");
 	return (0);
 }
