@@ -17,8 +17,8 @@ int main(void)
 		int lowerCase = tolower(m);
 
 		putchar(lowerCase);
-		putchar('\n');
 		m++;
 	}
+		putchar('\n');
 	return (0);
 }
