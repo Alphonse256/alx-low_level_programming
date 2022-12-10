@@ -18,6 +18,7 @@ int main(void)
 		if ((a != 'Q' && a != 'E') && a <= 'Z')
 		{
 			int lowerCase = tolower(a);
+
 			putchar(lowerCase);
 		}
 	}
