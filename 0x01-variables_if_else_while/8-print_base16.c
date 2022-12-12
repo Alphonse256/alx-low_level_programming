@@ -8,13 +8,18 @@
 
 int main(void)
 {
-	int p = 0;
+	int num = 48;
+	int letter = 97;
 
-	while (p < 16)
+	while (num < 58)
 	{
-		putchar(p + '0');
-		putchar(%x);
-		p++;
+		putchar(num);
+		num++;
+	}
+	while (letter < 103)
+	{
+		putchar(letter);
+		letter++;
 	}
 
 	putchar('\n');
