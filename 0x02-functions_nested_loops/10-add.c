@@ -2,13 +2,15 @@
 
 /**
  * add - Adding 2 integers
- * @r,t: Parameters giving the output
+ * @r: First Parameter giving the output
+ * @t: Second Parameter giving the output
  * Return: On success 0
  */
 
 int add(int r, int t)
 {
 	int sum = r + t;
-	_putchar(sum + '0');
+
+	_putchar('0' + sum);
 	return (sum);
 }
