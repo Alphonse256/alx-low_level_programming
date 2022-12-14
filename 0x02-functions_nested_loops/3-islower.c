@@ -2,20 +2,18 @@
 
 /**
  * _islower - Prints the lowercase character
- *
- * Return: 0
+ * @c: Prints the character
+ * Return: On success 1.
  */
 
 int _islower(int c)
 {
-	int c;
-
-	if (islower(c))
+	if (c >= 97 && c <= 122)
 	{
-		return 1;
+		return (1);
 	}
 	else
 	{
-		return 0;
+		return (0);
 	}
 }
