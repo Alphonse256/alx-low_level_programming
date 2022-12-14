@@ -1,4 +1,5 @@
 #include "main.h"
+#include "6-abs.c"
 
 /**
  * print_last_digit - Displays the last digit
@@ -10,6 +11,7 @@ int print_last_digit(int p)
 {
 	int last;
 
-	last = (p % 10);
+	last = _abs(p) % 10;
+	_putchar(last + '0');
 	return (last);
 }
